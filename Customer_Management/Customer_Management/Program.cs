@@ -128,7 +128,7 @@
                             Customer? cust = management.GetCustomer(id);
                             if (cust == null)
                             {
-                                Console.WriteLine("Product with specified id does not exists");
+                                Console.WriteLine("Customer with specified id does not exists");
                             }
                             else
                             {
@@ -177,7 +177,7 @@
                             }
                             else
                             {
-                                Console.WriteLine("Product with specified id does not exist");
+                                Console.WriteLine("Customer with specified id does not exist");
                             }
                             break;
                         }
